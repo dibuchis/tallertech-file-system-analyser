@@ -1,11 +1,13 @@
 <?php
 
+include_once 'FileAnalyserInterface.php';
+
 /**
  * 
  * FileAnalyser Class
  * 
  */
-class FileAnalyser{
+class FileAnalyser implements FileAnalyserInterface{
 
     private $directory;
     private $totalFiles;
